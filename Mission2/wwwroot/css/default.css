@@ -1,0 +1,45 @@
+﻿* {
+    text-align: center;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+form {
+    background-color: lightblue;
+    padding-left: 10px;
+    margin-left: 510px;
+    margin-right: 510px;
+    color: white;
+}
+
+ol {
+    background-color: powderblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 590px;
+    margin-right: 590px;
+    color: white;
+}
+
+h1 {
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p {
+    background-color: palevioletred;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding: 10px;
+    color: white;
+}
+
+img {
+    padding-top: 5px;
+}
