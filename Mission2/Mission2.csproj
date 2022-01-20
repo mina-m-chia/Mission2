@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\" />
-    <Content Remove="wwwroot\index.htm" />
     <Content Remove="wwwroot\img\" />
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\lib\" />
@@ -23,13 +22,14 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Views\" />
+    <Folder Include="Views\Mission\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Models\" />
     <None Remove="Views\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="wwwroot\index.htm" />
+    <None Remove="Views\Mission\" />
+    <None Remove="Views\Shared\" />
   </ItemGroup>
 </Project>
